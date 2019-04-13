@@ -1,0 +1,25 @@
+.calbutton {
+    text-align: center;
+    height: 3em;
+    border: 2px solid #e5e5e5 !important;
+    /* padding-top: 5%; */
+    font-size: 2em; 
+    vertical-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.1s;
+}
+.calbutton:hover {
+    z-index: 2;
+    background: #c6c6c6;
+    box-shadow: inset 0 0 10px #9ea0a3;
+    transform: scale(1.2);
+}
+.calhistory {
+    float: right;
+    min-height: 2em;
+}
+.current{
+    font-size: 3em;
+}
