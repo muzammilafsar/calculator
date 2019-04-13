@@ -10,6 +10,11 @@
     justify-content: center;
     transition: transform 0.1s;
 }
+.frame {
+    border: 2px solid #e5e5e5;
+    padding: 2em;
+    margin-top: 2em;
+}
 .calbutton:hover {
     z-index: 2;
     background: #c6c6c6;
